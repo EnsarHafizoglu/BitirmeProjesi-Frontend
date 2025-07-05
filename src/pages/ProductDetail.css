@@ -1,0 +1,126 @@
+.product-detail-container {
+    padding: 2rem;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #ebe9e9;
+  }
+  
+  .product-detail-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .product-overview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+  }
+  
+  .product-overview-image img {
+    width: 280px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .product-overview-specs ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+  }
+  
+  .product-overview-specs li {
+    margin-bottom: 0.6rem;
+  }
+  
+  .platform-scores {
+    margin-top: 2rem;
+  }
+  
+  .card {
+    border: none;
+  }
+  .product-detail-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #222;
+  }
+  
+  .product-overview {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .product-overview-specs ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.1rem;
+  }
+  
+  .product-overview-specs li {
+    margin-bottom: 10px;
+  }
+  
+  .product-overview-image img {
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .card {
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-overview-specs ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .product-overview-specs li {
+    margin-bottom: 8px;
+  }
+  .product-spec-grid .row {
+    font-size: 1rem;
+  }
+  
+  .product-spec-grid .row:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+  }
+  .product-detail-container {
+    padding-top: 40px;
+    background-color: #f4f4f4;
+  }
+  
+  .product-detail-title {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .card {
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .platform-scores .card {
+    min-height: 450px;
+  }
+  

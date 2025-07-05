@@ -1,0 +1,250 @@
+/* === HEADER GENEL YAPI === */
+.site-header {
+  background: linear-gradient(to right, #ffffff, #f8f9fa);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 20px 0;
+  transition: background 0.3s ease;
+}
+
+/* === KONTEYNER === */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* === SOL TARAF: LOGO ve BAŞLIK === */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-logo {
+  width: 100px;
+  height: auto;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #212529;
+    margin: 0;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    /* Gradient text styling */
+    background: linear-gradient(to right, #babab9, #242525);
+    background-clip: text;              /* Standard syntax */
+    -webkit-background-clip: text;      /* Chrome/Safari support */
+    -webkit-text-fill-color: transparent;    /* Optional: non-webkit fallback */
+  
+    transition: all 0.3s ease;
+  }
+  
+  .header-title:hover {
+    letter-spacing: 1px;
+    transform: scale(1.02);
+    background: linear-gradient(to right, #dadddc, #444544);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+  }
+  
+  
+/* === ARAMA ÇUBUĞU === */
+.header-search {
+  display: flex;
+  align-items: center;
+  background-color: #f1f3f5;
+  border-radius: 30px;
+  overflow: hidden;
+  max-width: 400px;
+  width: 100%;
+  height: 42px;
+  margin: 10px 0;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  padding: 0 16px;
+  font-size: 14px;
+  outline: none;
+  color: #212529;
+}
+
+.search-button {
+  border: none;
+  background-color: #198754;
+  color: #fff;
+  padding: 0 18px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #146c43;
+}
+
+/* === NAV MENÜ === */
+.header-nav {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  padding-top: 15px;
+  border-top: 1px solid #dee2e6;
+  margin-top: 15px;
+}
+
+.header-nav a {
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #212529;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.header-nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #198754;
+  transition: 0.3s;
+}
+
+.header-nav a:hover {
+  color: #198754;
+}
+
+.header-nav a:hover::after {
+  width: 100%;
+}
+/* === HEADER GENEL YAPI === */
+.site-header {
+    background: linear-gradient(to right, #ffffff, #f8f9fa);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 20px 0;
+    transition: background 0.3s ease;
+  }
+  
+  /* === KONTEYNER === */
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* === SOL TARAF: LOGO ve BAŞLIK === */
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .header-logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .header-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #212529;
+    margin: 0;
+    white-space: nowrap;
+  }
+  
+  /* === ARAMA ÇUBUĞU === */
+  .header-search {
+    display: flex;
+    align-items: center;
+    background-color: #f1f3f5;
+    border-radius: 30px;
+    overflow: hidden;
+    max-width: 400px;
+    width: 100%;
+    height: 42px;
+    margin: 10px 0;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    padding: 0 16px;
+    font-size: 14px;
+    outline: none;
+    color: #212529;
+  }
+  
+  .search-button {
+    border: none;
+    background-color: #198754;
+    color: #fff;
+    padding: 0 18px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #146c43;
+  }
+  
+  /* === NAV MENÜ === */
+  .header-nav {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 15px;
+    border-top: 1px solid #dee2e6;
+    margin-top: 15px;
+  }
+  
+  .header-nav a {
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #212529;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+  }
+  
+  .header-nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #198754;
+    transition: 0.3s;
+  }
+  
+  .header-nav a:hover {
+    color: #198754;
+  }
+  
+  .header-nav a:hover::after {
+    width: 100%;
+  }
+  
